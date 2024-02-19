@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <div className="about">
+      <div className="page">
         <div className="about-container">
           <h1>About me</h1>
           <p>I am a dedicated and versatile software developer with a passion for leveraging technology to solve real-world problems. Currently pursuing a Bachelor of Science in Computer Science at the University of British Columbia, I have a strong foundation in software engineering and problem-solving.</p>

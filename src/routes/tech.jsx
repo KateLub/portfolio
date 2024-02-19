@@ -1,6 +1,8 @@
+import Projects from "../components/projects";
+
 export default function Tech() {
     return (
-        <div className="tech">
+        <div className="page">
           <div className="tech-container">
       <h1>Tech</h1>
       <div className="section">
@@ -17,6 +19,8 @@ export default function Tech() {
       </div>
       <div className="section">
         <h2>Projects</h2>
+
+        <Projects />
       </div>
     </div>
         </div>
