@@ -4,6 +4,7 @@ import Tech from './tech';
 import About from './about';
 import Footer from '../components/footer';
 import ScrollButton from "../components/scrollButton";
+import ParticleCanvas from "../components/particleCanvas";
 
 import { useEffect, useRef} from "react";
  
@@ -19,8 +20,10 @@ const scrollToElem = (elementRef) => {
 }
 
   return (
-    <div className="root">
-      <div className="page" ref = {refScrollUp}>
+    <div>
+    <ParticleCanvas  />  
+  <div className="root">  
+   <div className="page" ref = {refScrollUp}>
        <ScrollButton  refScrollUp={refScrollUp}/>
         <div className="navbar">
           <Link to="/portfolio/about" 
@@ -53,6 +56,7 @@ const scrollToElem = (elementRef) => {
           </div> 
 
           <Footer />
+    </div>
     </div>
   );
   }
