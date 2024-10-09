@@ -67,3 +67,7 @@ by KateLub via Deploy static content to Pages #1** :
     
     Github Actions -> Deploy static content to Pages -> Click on the failed deployment (in red) -> sidebar Jobs -> deploy
     ```
+
+# Acknowledgments
+
+The animation in this project was heavily inspired by the work of [WindOso](https://codepen.io/WindOso/pen/PoXBYdb). Special thanks to them for their creative inspiration! The original code is licensed under the MIT License.
